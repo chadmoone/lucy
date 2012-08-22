@@ -1,0 +1,121 @@
+<%= form_for(@diamond) do |f| %>
+  <% if @diamond.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@diamond.errors.count, "error") %> prohibited this diamond from being saved:</h2>
+
+      <ul>
+      <% @diamond.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :bn_number %><br />
+    <%= f.text_field :bn_number %>
+  </div>
+  <div class="field">
+    <%= f.label :gia_number %><br />
+    <%= f.text_field :gia_number %>
+  </div>
+  <div class="field">
+    <%= f.label :carat_weight %><br />
+    <%= f.text_field :carat_weight %>
+  </div>
+  <div class="field">
+    <%= f.label :color %><br />
+    <%= f.text_field :color %>
+  </div>
+  <div class="field">
+    <%= f.label :clarity %><br />
+    <%= f.text_field :clarity %>
+  </div>
+  <div class="field">
+    <%= f.label :cut_grade %><br />
+    <%= f.text_field :cut_grade %>
+  </div>
+  <div class="field">
+    <%= f.label :height_mm %><br />
+    <%= f.text_field :height_mm %>
+  </div>
+  <div class="field">
+    <%= f.label :diameter_max %><br />
+    <%= f.text_field :diameter_max %>
+  </div>
+  <div class="field">
+    <%= f.label :diameter_min %><br />
+    <%= f.text_field :diameter_min %>
+  </div>
+  <div class="field">
+    <%= f.label :table_size %><br />
+    <%= f.text_field :table_size %>
+  </div>
+  <div class="field">
+    <%= f.label :total_depth %><br />
+    <%= f.text_field :total_depth %>
+  </div>
+  <div class="field">
+    <%= f.label :crown_angle %><br />
+    <%= f.text_field :crown_angle %>
+  </div>
+  <div class="field">
+    <%= f.label :crown_height %><br />
+    <%= f.text_field :crown_height %>
+  </div>
+  <div class="field">
+    <%= f.label :pavillion_angle %><br />
+    <%= f.text_field :pavillion_angle %>
+  </div>
+  <div class="field">
+    <%= f.label :pavillion_depth %><br />
+    <%= f.text_field :pavillion_depth %>
+  </div>
+  <div class="field">
+    <%= f.label :star_length %><br />
+    <%= f.text_field :star_length %>
+  </div>
+  <div class="field">
+    <%= f.label :lower_half_length %><br />
+    <%= f.text_field :lower_half_length %>
+  </div>
+  <div class="field">
+    <%= f.label :girdle_min %><br />
+    <%= f.text_field :girdle_min %>
+  </div>
+  <div class="field">
+    <%= f.label :girdle_max %><br />
+    <%= f.text_field :girdle_max %>
+  </div>
+  <div class="field">
+    <%= f.label :cutlet_size %><br />
+    <%= f.text_field :cutlet_size %>
+  </div>
+  <div class="field">
+    <%= f.label :polish %><br />
+    <%= f.text_field :polish %>
+  </div>
+  <div class="field">
+    <%= f.label :symmetry %><br />
+    <%= f.text_field :symmetry %>
+  </div>
+  <div class="field">
+    <%= f.label :flourescence %><br />
+    <%= f.text_field :flourescence %>
+  </div>
+  <div class="field">
+    <%= f.label :hca_score %><br />
+    <%= f.text_field :hca_score %>
+  </div>
+  <div class="field">
+    <%= f.label :aga_naja_grade %><br />
+    <%= f.text_field :aga_naja_grade %>
+  </div>
+  <div class="field">
+    <%= f.label :ship_time %><br />
+    <%= f.number_field :ship_time %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

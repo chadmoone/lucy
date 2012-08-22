@@ -1,0 +1,73 @@
+<h1>Listing diamonds</h1>
+
+<table>
+  <tr>
+    <th>Bn number</th>
+    <th>Gia number</th>
+    <th>Carat weight</th>
+    <th>Color</th>
+    <th>Clarity</th>
+    <th>Cut grade</th>
+    <th>Height mm</th>
+    <th>Diameter max</th>
+    <th>Diameter min</th>
+    <th>Table size</th>
+    <th>Total depth</th>
+    <th>Crown angle</th>
+    <th>Crown height</th>
+    <th>Pavillion angle</th>
+    <th>Pavillion depth</th>
+    <th>Star length</th>
+    <th>Lower half length</th>
+    <th>Girdle min</th>
+    <th>Girdle max</th>
+    <th>Cutlet size</th>
+    <th>Polish</th>
+    <th>Symmetry</th>
+    <th>Flourescence</th>
+    <th>Hca score</th>
+    <th>Aga naja grade</th>
+    <th>Ship time</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @diamonds.each do |diamond| %>
+  <tr>
+    <td><%= diamond.bn_number %></td>
+    <td><%= diamond.gia_number %></td>
+    <td><%= diamond.carat_weight %></td>
+    <td><%= diamond.color %></td>
+    <td><%= diamond.clarity %></td>
+    <td><%= diamond.cut_grade %></td>
+    <td><%= diamond.height_mm %></td>
+    <td><%= diamond.diameter_max %></td>
+    <td><%= diamond.diameter_min %></td>
+    <td><%= diamond.table_size %></td>
+    <td><%= diamond.total_depth %></td>
+    <td><%= diamond.crown_angle %></td>
+    <td><%= diamond.crown_height %></td>
+    <td><%= diamond.pavillion_angle %></td>
+    <td><%= diamond.pavillion_depth %></td>
+    <td><%= diamond.star_length %></td>
+    <td><%= diamond.lower_half_length %></td>
+    <td><%= diamond.girdle_min %></td>
+    <td><%= diamond.girdle_max %></td>
+    <td><%= diamond.cutlet_size %></td>
+    <td><%= diamond.polish %></td>
+    <td><%= diamond.symmetry %></td>
+    <td><%= diamond.flourescence %></td>
+    <td><%= diamond.hca_score %></td>
+    <td><%= diamond.aga_naja_grade %></td>
+    <td><%= diamond.ship_time %></td>
+    <td><%= link_to 'Show', diamond %></td>
+    <td><%= link_to 'Edit', edit_diamond_path(diamond) %></td>
+    <td><%= link_to 'Destroy', diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Diamond', new_diamond_path %>
