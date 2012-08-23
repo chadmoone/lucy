@@ -45,8 +45,6 @@ ActiveRecord::Schema.define(:version => 20120823164856) do
     t.integer  "current_price_id"
   end
 
-  add_index "diamonds", ["current_price_id"], :name => "index_diamonds_on_current_price_id"
-
   create_table "price_snapshots", :force => true do |t|
     t.integer  "diamond_id"
     t.decimal  "price"

@@ -102,8 +102,6 @@ class DiamondsController < ApplicationController
          :height_mm => height_mm.to_f
          };
       
-      puts "#{d[:bn_id]}, #{d[:price]}"
-      
       diamond = Diamond.where({:bn_number => d[:bn_number]}).first
       
       if diamond
@@ -113,6 +111,12 @@ class DiamondsController < ApplicationController
       end
       
       if !diamond.current_price || diamond.current_price.price != price
+        logger.info "Updating price (#{diamond.current_price}) for diamond (#{diamond.bn_number})"
+        if diamond.current_price
+          logger.info "old price:#{diamond.current_price.price}"
+        end
+        logger.info "new price: #{price}"
+        
         price_snapshot = PriceSnapshot.create({:price => price, :diamond => diamond})
         diamond.current_price = price_snapshot
       end
