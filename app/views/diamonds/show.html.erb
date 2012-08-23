@@ -16,6 +16,19 @@
 </p>
 
 <p>
+  <b>Current Price:</b>
+  <%= number_to_currency(@diamond.current_price.price) %>
+</p>
+
+<p>
+  <b>Pricing History:</b>
+  <ul>
+    <% @diamond.price_snapshots.each do |snapshot| %>
+    <li><%= number_to_currency(snapshot.price) %> - <%= snapshot.created_at %></li>
+    <% end %>
+  </ul>
+
+<p>
   <b>Color:</b>
   <%= @diamond.color %>
 </p>
