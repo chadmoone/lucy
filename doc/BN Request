@@ -1,0 +1,1866 @@
+<!-- 
+   Request:
+   http://www.bluenile.com/diamond-search/grid.html?currency=USD&sortCol=price&sortDir=desc&builder=BYOR&shape=RD&minCarat=0.97&maxCarat=15.35&minColor=I&maxColor=D&minPrice=317&maxPrice=6600&minCut=Ideal&maxCut=Signature+Ideal&minClarity=VS1&maxClarity=FL&minFluorescence=Medium&maxFluorescence=None&fluorescence=1&looseDate=false&type=SINGLE&startIndex=0&canvasScrollPosition=0&gridScrollPosition=0&showRowNumbers=false&_=1345652430221
+    -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div id="totalDiamondsFmt" style="display:none">
+            <span id="results-number" class="ds_results_number">45</span> <span id="results-description">Round Diamonds</span>
+        </div>
+        <form>
+            <input type="hidden" name="startIndex" id="start-index" value="0"> <input type="hidden" name="canvasScrollPosition" id="canvas-scroll-position" value="0"> <input type="hidden" name="gridScrollPosition" id="grid-scroll-position" value="0">
+        </form>
+        <div id="diamonds" class="ds" totaldiamonds="45" sortcol="" sortdir="" startindex="0" endindex="45" searchtype="SINGLE">
+            <div id="LD02744011_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02744011">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02744011" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02744011" href="javascript:;" name="compare_but_LD02744011"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.11</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.7</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,940</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;28</div>
+                <div class="c16 ds_gc_center price">
+                    $6,593</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02744011" name="view_diamond_1" id="view_diamond_1"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02744011" sku='LD02744011' depth='62.7' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.56x6.62x4.13mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,940' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 28'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02702905_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02702905">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02702905" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02702905" href="javascript:;" name="compare_but_LD02702905"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.0</div>
+                <div class="c10 table">
+                    59.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,588</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,588</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02702905" name="view_diamond_2" id="view_diamond_2"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02702905" sku='LD02702905' depth='62.0' table='59.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.40x6.36x3.96mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,588' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02661470_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02661470">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02661470" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02661470" href="javascript:;" name="compare_but_LD02661470"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.5</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,501</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,566</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02661470" name="view_diamond_3" id="view_diamond_3"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02661470" sku='LD02661470' depth='62.5' table='57.0' girdle='Slightly Thick to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.40x6.37x3.99mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,501' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02571841_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02571841">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02571841" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02571841" href="javascript:;" name="compare_but_LD02571841"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.03</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.9</div>
+                <div class="c10 table">
+                    56.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,348</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,538</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02571841" name="view_diamond_4" id="view_diamond_4"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02571841" sku='LD02571841' depth='62.9' table='56.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.43x6.46x4.05mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,348' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02663971_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02663971">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02663971" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02663971" href="javascript:;" name="compare_but_LD02663971"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    0.97</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    H</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    ID</div>
+                <div class="c8 symmetry">
+                    ID</div>
+                <div class="c9 depth">
+                    60.5</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $6,734</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,532</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02663971" name="view_diamond_5" id="view_diamond_5"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02663971" sku='LD02663971' depth='60.5' table='57.0' girdle='Thin to Medium' symmetry='Ideal' polish='Ideal' culet='None' fluorescence='Medium Blue' measurements='6.43x6.46x3.90mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,734' certlab='AGS' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02302214_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02302214">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02302214" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02302214" href="javascript:;" name="compare_but_LD02302214"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.06</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.0</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,158</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,527</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02302214" name="view_diamond_6" id="view_diamond_6"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02302214" sku='LD02302214' depth='60.0' table='60.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Very Good' culet='None' fluorescence='None' measurements='6.63x6.62x3.97mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,158' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02711654_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02711654">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02711654" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02711654" href="javascript:;" name="compare_but_LD02711654"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.04</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.6</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,267</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;30</div>
+                <div class="c16 ds_gc_center price">
+                    $6,518</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02711654" name="view_diamond_7" id="view_diamond_7"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02711654" sku='LD02711654' depth='60.6' table='58.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.57x6.55x3.98mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,267' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 29' manufacturingdate='Aug 30'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02697774_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02697774">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02697774" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02697774" href="javascript:;" name="compare_but_LD02697774"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.2</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $6,449</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,513</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02697774" name="view_diamond_8" id="view_diamond_8"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02697774" sku='LD02697774' depth='61.2' table='60.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Medium Blue' measurements='6.48x6.44x3.95mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,449' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02708826_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02708826">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02708826" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02708826" href="javascript:;" name="compare_but_LD02708826"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.7</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,410</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,474</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02708826" name="view_diamond_9" id="view_diamond_9"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02708826" sku='LD02708826' depth='61.7' table='58.0' girdle='Thin to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.45x6.50x4.00mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,410' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02742976_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02742976">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02742976" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02742976" href="javascript:;" name="compare_but_LD02742976"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    59.9</div>
+                <div class="c10 table">
+                    59.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,410</div>
+                <div class="c13 culet">
+                    <span class="a">Pointed</span><span class="b">Point</span><span class="c">P</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,474</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02742976" name="view_diamond_10" id="view_diamond_10"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02742976" sku='LD02742976' depth='59.9' table='59.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='Pointed' fluorescence='Faint' measurements='6.55x6.51x3.91mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,410' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02471013_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02471013">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02471013" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02471013" href="javascript:;" name="compare_but_LD02471013"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.08</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.3</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,970</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,448</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02471013" name="view_diamond_11" id="view_diamond_11"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02471013" sku='LD02471013' depth='62.3' table='58.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.58x6.52x4.08mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,970' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02572761_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02572761">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02572761" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02572761" href="javascript:;" name="compare_but_LD02572761"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    H</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    60.8</div>
+                <div class="c10 table">
+                    61.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,444</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,444</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02572761" name="view_diamond_12" id="view_diamond_12"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02572761" sku='LD02572761' depth='60.8' table='61.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Very Good' culet='None' fluorescence='Faint' measurements='6.43x6.48x3.92mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,444' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02689780_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02689780">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02689780" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02689780" href="javascript:;" name="compare_but_LD02689780"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.04</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.1</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,188</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,436</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02689780" name="view_diamond_13" id="view_diamond_13"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02689780" sku='LD02689780' depth='62.1' table='57.0' girdle='Thin to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.47x6.52x4.03mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,188' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02730565_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02730565">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02730565" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02730565" href="javascript:;" name="compare_but_LD02730565"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    62.7</div>
+                <div class="c10 table">
+                    59.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium</span><span class="b">Med</span><span class="c">M</span></div>
+                <div class="c12 pricepercarat">
+                    $6,353</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,417</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02730565" name="view_diamond_14" id="view_diamond_14"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02730565" sku='LD02730565' depth='62.7' table='59.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='Medium' measurements='6.41x6.33x4.00mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,353' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02523915_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02523915">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02523915" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02523915" href="javascript:;" name="compare_but_LD02523915"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.09</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    62.5</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $5,864</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,392</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02523915" name="view_diamond_15" id="view_diamond_15"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02523915" sku='LD02523915' depth='62.5' table='58.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='Medium Blue' measurements='6.52x6.56x4.08mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,864' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02608645_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02608645">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02608645" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02608645" href="javascript:;" name="compare_but_LD02608645"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    62.4</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,356</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,356</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02608645" name="view_diamond_16" id="view_diamond_16"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02608645" sku='LD02608645' depth='62.4' table='57.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='None' measurements='6.35x6.43x3.99mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,356' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02630110_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02630110">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02630110" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02630110" href="javascript:;" name="compare_but_LD02630110"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.6</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,273</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;30</div>
+                <div class="c16 ds_gc_center price">
+                    $6,336</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02630110" name="view_diamond_17" id="view_diamond_17"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02630110" sku='LD02630110' depth='61.6' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.44x6.42x3.96mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,273' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 29' manufacturingdate='Aug 30'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02730058_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02730058">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02730058" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02730058" href="javascript:;" name="compare_but_LD02730058"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    0.99</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    H</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.6</div>
+                <div class="c10 table">
+                    59.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $6,390</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,326</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02730058" name="view_diamond_18" id="view_diamond_18"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02730058" sku='LD02730058' depth='61.6' table='59.0' girdle='Thin to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Medium Blue' measurements='6.37x6.39x3.93mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,390' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02664722_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02664722">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02664722" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02664722" href="javascript:;" name="compare_but_LD02664722"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    60.6</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,219</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,281</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02664722" name="view_diamond_19" id="view_diamond_19"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02664722" sku='LD02664722' depth='60.6' table='60.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='None' measurements='6.50x6.42x3.91mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,219' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02352523_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02352523">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02352523" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02352523" href="javascript:;" name="compare_but_LD02352523"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.03</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.7</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,058</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,240</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02352523" name="view_diamond_20" id="view_diamond_20"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02352523" sku='LD02352523' depth='61.7' table='57.0' girdle='Thin to Thin' symmetry='Excellent' polish='Very Good' culet='None' fluorescence='None' measurements='6.51x6.56x4.03mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,058' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02631086_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02631086">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02631086" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02631086" href="javascript:;" name="compare_but_LD02631086"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.1</div>
+                <div class="c10 table">
+                    59.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,176</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,238</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02631086" name="view_diamond_21" id="view_diamond_21"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02631086" sku='LD02631086' depth='60.1' table='59.0' girdle='Slightly Thick to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.49x6.51x3.90mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,176' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02541272_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02541272">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02541272" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02541272" href="javascript:;" name="compare_but_LD02541272"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    62.6</div>
+                <div class="c10 table">
+                    56.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,166</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;29</div>
+                <div class="c16 ds_gc_center price">
+                    $6,228</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02541272" name="view_diamond_22" id="view_diamond_22"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02541272" sku='LD02541272' depth='62.6' table='56.0' girdle='Thin to Medium' symmetry='Very Good' polish='Very Good' culet='None' fluorescence='None' measurements='6.40x6.44x4.02mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,166' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 28' manufacturingdate='Aug 29'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02471078_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02471078">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02471078" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02471078" href="javascript:;" name="compare_but_LD02471078"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.04</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.9</div>
+                <div class="c10 table">
+                    59.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,977</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,216</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02471078" name="view_diamond_23" id="view_diamond_23"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02471078" sku='LD02471078' depth='61.9' table='59.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.50x6.45x4.01mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,977' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02494586_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02494586">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02494586" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02494586" href="javascript:;" name="compare_but_LD02494586"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.5</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,195</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,195</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02494586" name="view_diamond_24" id="view_diamond_24"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02494586" sku='LD02494586' depth='61.5' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.45x6.41x3.96mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,195' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02743991_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02743991">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02743991" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02743991" href="javascript:;" name="compare_but_LD02743991"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.04</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.6</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $5,951</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;28</div>
+                <div class="c16 ds_gc_center price">
+                    $6,189</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02743991" name="view_diamond_25" id="view_diamond_25"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02743991" sku='LD02743991' depth='62.6' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.45x6.48x4.05mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,951' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 28'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02744020_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02744020">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02744020" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02744020" href="javascript:;" name="compare_but_LD02744020"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.04</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.5</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,951</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;28</div>
+                <div class="c16 ds_gc_center price">
+                    $6,189</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02744020" name="view_diamond_26" id="view_diamond_26"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02744020" sku='LD02744020' depth='60.5' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.54x6.57x3.97mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,951' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 28'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02722633_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02722633">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02722633" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02722633" href="javascript:;" name="compare_but_LD02722633"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.9</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,114</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,175</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02722633" name="view_diamond_27" id="view_diamond_27"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02722633" sku='LD02722633' depth='60.9' table='60.0' girdle='Thin to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.50x6.45x3.94mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,114' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02470963_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02470963">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02470963" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02470963" href="javascript:;" name="compare_but_LD02470963"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.03</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.3</div>
+                <div class="c10 table">
+                    55.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,978</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,157</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02470963" name="view_diamond_28" id="view_diamond_28"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02470963" sku='LD02470963' depth='62.3' table='55.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.49x6.43x4.03mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,978' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02672974_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02672974">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02672974" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02672974" href="javascript:;" name="compare_but_LD02672974"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.03</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.6</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $5,978</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,157</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02672974" name="view_diamond_29" id="view_diamond_29"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02672974" sku='LD02672974' depth='61.6' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.47x6.51x3.99mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,978' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02608562_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02608562">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02608562" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02608562" href="javascript:;" name="compare_but_LD02608562"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.5</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,155</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,155</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02608562" name="view_diamond_30" id="view_diamond_30"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02608562" sku='LD02608562' depth='61.5' table='58.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.39x6.41x3.94mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,155' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02718595_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02718595">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02718595" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02718595" href="javascript:;" name="compare_but_LD02718595"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.02</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.0</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,033</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;28</div>
+                <div class="c16 ds_gc_center price">
+                    $6,154</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02718595" name="view_diamond_31" id="view_diamond_31"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02718595" sku='LD02718595' depth='60.0' table='60.0' girdle='Slightly Thick to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.50x6.56x3.92mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,033' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 28'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02473725_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02473725">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02473725" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02473725" href="javascript:;" name="compare_but_LD02473725"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.04</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    62.6</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,911</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,147</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02473725" name="view_diamond_32" id="view_diamond_32"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02473725" sku='LD02473725' depth='62.6' table='57.0' girdle='Slightly Thick to Slightly Thick' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='None' measurements='6.48x6.40x4.04mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,911' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02444192_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02444192">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02444192" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02444192" href="javascript:;" name="compare_but_LD02444192"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.7</div>
+                <div class="c10 table">
+                    55.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,116</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,116</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02444192" name="view_diamond_33" id="view_diamond_33"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02444192" sku='LD02444192' depth='62.7' table='55.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.35x6.39x4.00mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,116' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02398428_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02398428">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02398428" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02398428" href="javascript:;" name="compare_but_LD02398428"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    0.97</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.7</div>
+                <div class="c10 table">
+                    55.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $6,302</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,113</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02398428" name="view_diamond_34" id="view_diamond_34"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02398428" sku='LD02398428' depth='61.7' table='55.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.34x6.37x3.92mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,302' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02190936_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02190936">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02190936" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02190936" href="javascript:;" name="compare_but_LD02190936"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.05</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.4</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,810</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,101</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02190936" name="view_diamond_35" id="view_diamond_35"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02190936" sku='LD02190936' depth='61.4' table='58.0' girdle='Thin to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.57x6.54x4.02mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,810' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02665362_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02665362">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02665362" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02665362" href="javascript:;" name="compare_but_LD02665362"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    61.1</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,101</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,101</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02665362" name="view_diamond_36" id="view_diamond_36"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02665362" sku='LD02665362' depth='61.1' table='60.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='None' measurements='6.40x6.45x3.93mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,101' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02731364_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02731364">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02731364" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02731364" href="javascript:;" name="compare_but_LD02731364"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.4</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $6,012</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;28</div>
+                <div class="c16 ds_gc_center price">
+                    $6,072</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02731364" name="view_diamond_37" id="view_diamond_37"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02731364" sku='LD02731364' depth='62.4' table='57.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Medium Blue' measurements='6.38x6.41x3.99mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,012' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 28'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02681816_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02681816">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02681816" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02681816" href="javascript:;" name="compare_but_LD02681816"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.2</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,062</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,062</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02681816" name="view_diamond_38" id="view_diamond_38"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02681816" sku='LD02681816' depth='62.2' table='57.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.39x6.42x3.99mm' lnwdthratio='1.00' shape='rd' pricepercarat='$6,062' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02470976_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02470976">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02470976" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02470976" href="javascript:;" name="compare_but_LD02470976"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    60.7</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,981</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,041</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02470976" name="view_diamond_39" id="view_diamond_39"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02470976" sku='LD02470976' depth='60.7' table='60.0' girdle='Thin to Thin' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.48x6.45x3.92mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,981' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02471048_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02471048">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02471048" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02471048" href="javascript:;" name="compare_but_LD02471048"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    61.1</div>
+                <div class="c10 table">
+                    60.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,981</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $6,041</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02471048" name="view_diamond_40" id="view_diamond_40"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02471048" sku='LD02471048' depth='61.1' table='60.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='None' measurements='6.47x6.43x3.94mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,981' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 23' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02608555_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02608555">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02608555" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02608555" href="javascript:;" name="compare_but_LD02608555"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    62.1</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $6,023</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $6,023</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02608555" name="view_diamond_41" id="view_diamond_41"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02608555" sku='LD02608555' depth='62.1' table='58.0' girdle='Thin to Medium' symmetry='Very Good' polish='Very Good' culet='None' fluorescence='None' measurements='6.36x6.43x3.97mm' lnwdthratio='1.01' shape='rd' pricepercarat='$6,023' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02718666_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02718666">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02718666" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02718666" href="javascript:;" name="compare_but_LD02718666"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.3</div>
+                <div class="c10 table">
+                    56.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Faint</span><span class="b">Fnt</span><span class="c">F</span></div>
+                <div class="c12 pricepercarat">
+                    $5,954</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;28</div>
+                <div class="c16 ds_gc_center price">
+                    $6,014</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02718666" name="view_diamond_42" id="view_diamond_42"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02718666" sku='LD02718666' depth='62.3' table='56.0' girdle='Medium to Medium' symmetry='Excellent' polish='Excellent' culet='None' fluorescence='Faint' measurements='6.40x6.43x4.00mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,954' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 28'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02382861_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02382861">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02382861" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02382861" href="javascript:;" name="compare_but_LD02382861"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.01</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    EX</div>
+                <div class="c9 depth">
+                    62.4</div>
+                <div class="c10 table">
+                    56.0</div>
+                <div class="c11 fluor">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c12 pricepercarat">
+                    $5,903</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;27</div>
+                <div class="c16 ds_gc_center price">
+                    $5,962</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02382861" name="view_diamond_43" id="view_diamond_43"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02382861" sku='LD02382861' depth='62.4' table='56.0' girdle='Medium to Slightly Thick' symmetry='Excellent' polish='Very Good' culet='None' fluorescence='None' measurements='6.38x6.41x3.99mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,903' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 24' manufacturingdate='Aug 27'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02366515_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row odd" data-sku="LD02366515">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02366515" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02366515" href="javascript:;" name="compare_but_LD02366515"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VVS2</div>
+                <div class="c7 polish">
+                    EX</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    61.1</div>
+                <div class="c10 table">
+                    58.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $5,362</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.00</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $5,362</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02366515" name="view_diamond_44" id="view_diamond_44"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02366515" sku='LD02366515' depth='61.1' table='58.0' girdle='Medium to Medium' symmetry='Very Good' polish='Excellent' culet='None' fluorescence='Medium Blue' measurements='6.43x6.46x3.94mm' lnwdthratio='1.00' shape='rd' pricepercarat='$5,362' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+            <div id="LD02664593_row" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)" class="row even" data-sku="LD02664593">
+                <div class="c1 ds_gc_center save">
+                    <a id="compare_but_LD02664593" onclick="g_addToComparison(this);" class="ds_gc_compare" data-sku="LD02664593" href="javascript:;" name="compare_but_LD02664593"></a>
+                    <div class="ds_save_icon">
+                        <span>Compare</span>
+                    </div></div>
+                <div style="" class="c2 shape">
+                    <div class="ds_grid_shape_icon sprite-icon_sm_shape_RD" style="margin-top: 2px;"></div><span class="a">Round</span> <span class="b">RD</span></div>
+                <div class="c3 carat">
+                    1.00</div>
+                <div class="c4 cut">
+                    <span class="a">Ideal</span><span class="b">Ideal</span><span class="c">I</span></div>
+                <div class="c5 color">
+                    I</div>
+                <div class="c6 clarity">
+                    VS1</div>
+                <div class="c7 polish">
+                    VG</div>
+                <div class="c8 symmetry">
+                    VG</div>
+                <div class="c9 depth">
+                    61.8</div>
+                <div class="c10 table">
+                    57.0</div>
+                <div class="c11 fluor">
+                    <span class="a">Medium Blue</span><span class="b">Med Blue</span><span class="c">MB</span></div>
+                <div class="c12 pricepercarat">
+                    $5,025</div>
+                <div class="c13 culet">
+                    <span class="a">None</span><span class="b">None</span><span class="c">N</span></div>
+                <div class="c14 lnwdthratio">
+                    1.01</div>
+                <div class="c15 deliverydate">
+                    Aug&nbsp;31</div>
+                <div class="c16 ds_gc_center price">
+                    $5,025</div>
+                <div class="c17 ds_gc_center viewSelect">
+                    <a class="view_link ds_button_view ds_sprite_icons sprite-but_sm_ds_details" href="byor.jsp?forceStep=DIAMONDS_STEP&amp;builder=BYOR&amp;pid=LD02664593" name="view_diamond_45" id="view_diamond_45"><span>View</span></a>
+                    <div style="display: none;" id="flyout-LD02664593" sku='LD02664593' depth='61.8' table='57.0' girdle='Medium to Slightly Thick' symmetry='Very Good' polish='Very Good' culet='None' fluorescence='Medium Blue' measurements='6.39x6.43x3.96mm' lnwdthratio='1.01' shape='rd' pricepercarat='$5,025' certlab='GIA' certpresent="true" nonmanufacturingdate='Aug 30' manufacturingdate='Aug 31'></div></div>
+            </div>
+            <div class="cb"></div>
+        </div>
+    </body>
+</html>
