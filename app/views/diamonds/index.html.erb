@@ -9,6 +9,7 @@
 
 <table id="diamond-table">
   <tr>
+    <th>Price</th>
     <th>Carat</th>
     <th>Color</th>
     <th>Clarity</th>
@@ -28,6 +29,7 @@
 
 <% @diamonds.each do |diamond| %>
   <tr>
+    <td><%= diamond.current_price.price %></td>
     <td><%= diamond.carat_weight %></td>
     <td><%= diamond.color %></td>
     <td><%= diamond.clarity %></td>

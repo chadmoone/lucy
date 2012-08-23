@@ -1,0 +1,27 @@
+<h1>Listing Price Snapshots</h1>
+
+<table>
+  <tr>
+    <th>Diamond</th>
+    <th>Price</th>
+    <th>Date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @price_snapshots.each do |price_snapshot| %>
+  <tr>
+    <td><%= price_snapshot.diamond.bn_number %></td>
+    <td><%= price_snapshot.price %></td>
+    <td><%= price_snapshot.created_at %></td>
+    <td><%= link_to 'Show', price_snapshot %></td>
+    <td><%= link_to 'Edit', edit_price_snapshot_path(price_snapshot) %></td>
+    <td><%= link_to 'Destroy', price_snapshot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Price snapshot', new_price_snapshot_path %>

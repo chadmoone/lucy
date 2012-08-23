@@ -1,4 +1,6 @@
 Lucy::Application.routes.draw do
+  resources :price_snapshots
+
   resources :diamonds do
     collection do
      get 'refresh' 

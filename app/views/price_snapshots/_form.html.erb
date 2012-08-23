@@ -1,0 +1,29 @@
+<%= form_for(@price_snapshot) do |f| %>
+  <% if @price_snapshot.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@price_snapshot.errors.count, "error") %> prohibited this price_snapshot from being saved:</h2>
+
+      <ul>
+      <% @price_snapshot.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :bn_id, "BN Number" %><br />
+    <%= f.text_field :bn_id %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :created_at, "Recorded at" %><br />
+    <%= f.datetime_select :created_at %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

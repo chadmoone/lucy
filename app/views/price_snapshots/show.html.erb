@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Diamond:</b>
+  <%= @price_snapshot.diamond %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @price_snapshot.price %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @price_snapshot.created_at %>
+</p>
+
+<%= link_to 'Edit', edit_price_snapshot_path(@price_snapshot) %> |
+<%= link_to 'Back', price_snapshots_path %>
