@@ -5,7 +5,7 @@ gem 'rails', '3.2.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'rspec-rails'
-gem 'sqlite3'
+
 
 require 'nokogiri'
 require 'open-uri'
@@ -24,6 +24,14 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :test do
+  gem 'sqlite3'
+end
 
 group :production do
   gem 'pg'
