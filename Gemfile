@@ -8,7 +8,7 @@ gem 'rspec-rails'
 
 
 gem 'nokogiri'
-# gem 'open-uri'
+require 'open-uri'
 
 
 # Gems used only for assets and not required
