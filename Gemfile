@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+# ruby '1.9.3'
 gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -7,8 +7,8 @@ gem 'rails', '3.2.6'
 gem 'rspec-rails'
 
 
-require 'nokogiri'
-require 'open-uri'
+gem 'nokogiri'
+# gem 'open-uri'
 
 
 # Gems used only for assets and not required
