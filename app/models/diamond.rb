@@ -29,4 +29,8 @@ class Diamond < ActiveRecord::Base
   has_many :price_snapshots, :dependent => :destroy
   belongs_to  :current_price, :class_name => "PriceSnapshot"
   
+  # named_scope :since, lambda {|timestamp| {:conditions => {:updated_at => (timestamp .. Time.now.utc)}}}
+  # named_scope :archived, :conditions => "archived_at IS NOT NULL"
+  # named_scope :active, :conditions => {:archived_at => nil}
+  
 end

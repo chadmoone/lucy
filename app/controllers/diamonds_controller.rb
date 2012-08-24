@@ -1,8 +1,10 @@
 class DiamondsController < ApplicationController
+  respond_to :html, :json, :js
   # GET /diamonds
   # GET /diamonds.json
   def index
-    @diamonds = Diamond.order("bn_number").all
+    # @diamonds = Diamond.order("bn_number").all
+    @diamonds = Diamond.all(:include => [:current_price], :order => "price_snapshots.price DESC")
 
     respond_to do |format|
       format.html # index.html.erb
@@ -70,6 +72,11 @@ class DiamondsController < ApplicationController
   end
   
   def refresh
+  
+    starttime = Time.now.utc
+    @new = []
+    @updated = []
+    
     page = Nokogiri::HTML(open("http://www.bluenile.com/diamond-search/grid.html?currency=USD&sortCol=carat&sortDir=asc&shape=RD&minCarat=0.97&maxCarat=10.00&minColor=I&maxColor=D&minPrice=1&maxPrice=6600&minCut=Ideal&maxCut=Signature+Ideal&minClarity=VS1&maxClarity=FL&minFluorescence=Faint&maxFluorescence=None&fluorescence=1&looseDate=false&type=SINGLE&startIndex=0&canvasScrollPosition=0&gridScrollPosition=0&showRowNumbers=false"))   
     
     rows = page.css('div.row')
@@ -105,8 +112,10 @@ class DiamondsController < ApplicationController
       
       if diamond
         diamond.update_attributes(d)
+        diamond.touch
       else
         diamond = Diamond.create(d)
+        @new << diamond
       end
       
       if !diamond.current_price || diamond.current_price.price != price
@@ -118,10 +127,29 @@ class DiamondsController < ApplicationController
         
         price_snapshot = PriceSnapshot.create({:price => price, :diamond => diamond})
         diamond.current_price = price_snapshot
+        @updated << diamond
       end
       
       diamond.save
+      
     end
+    
+    @missing = Diamond.where("updated_at < ? AND archived = ?", starttime, false)
+    @missing.each do |missing_d|
+      page = Nokogiri::HTML(open("http://www.bluenile.com/diamond-details-panel?pid=#{missing_d.bn_number}")) 
+      missing_price = page.css('div.details_column')[1].css('td')[3].text.gsub(/[\D]/, '').to_f
+      available = page.css('div.shipping p').text != "Not Available For Purchase."
+      
+      if available
+        price_snapshot = PriceSnapshot.create({:price => missing_price, :diamond => missing_d})
+      else
+        missing_d.archived = true
+      end
+      missing_d.save
+    end
+    
+    @current = Diamond.where('updated_at >= ?', starttime)
+    @archived = Diamond.where('archived = ?', true)
   end
 
   # DELETE /diamonds/1

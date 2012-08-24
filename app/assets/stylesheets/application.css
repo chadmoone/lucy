@@ -20,3 +20,12 @@ td {
 tbody tr:nth-child(odd) {
    background-color: #eee;
 }
+
+
+tbody tr:hover {
+  background-color: #55fff5;
+}
+
+/* .hover {
+    background-color: #55fff5;
+} */
