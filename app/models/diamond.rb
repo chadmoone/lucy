@@ -26,7 +26,7 @@ class Diamond < ActiveRecord::Base
                   :table_size,
                   :total_depth
   
-  has_many :price_snapshots
+  has_many :price_snapshots, :dependent => :destroy
   belongs_to  :current_price, :class_name => "PriceSnapshot"
   
 end

@@ -17,14 +17,19 @@
 
 <p>
   <b>Current Price:</b>
-  <%= number_to_currency(@diamond.current_price.price) %>
+  <% if @diamond.current_price %>
+    <%= number_to_currency(@diamond.current_price.price) %>
+  <% else %>
+    (null)
+  <% end %>
+  
 </p>
 
 <p>
   <b>Pricing History:</b>
   <ul>
     <% @diamond.price_snapshots.each do |snapshot| %>
-    <li><%= number_to_currency(snapshot.price) %> - <%= snapshot.created_at %></li>
+    <li><%= number_to_currency(snapshot.price) %> - <%= snapshot.created_at %> - <%= link_to 'Destroy', snapshot, method: :delete, data: { confirm: 'Are you sure?' } %></li>
     <% end %>
   </ul>
 

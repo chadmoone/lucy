@@ -16,13 +16,9 @@
     <th>Color</th>
     <th>Clarity</th>
     <th>Cut</th>
-    <th>Polish</th>
-    <th>Symmetry</th>
-    <th>Flourescence</th>
     <th>HCA</th>
-    <th>AGA/NAJA</th>
+    <th>AGA</th>
     <th>Ship time</th>
-    <th>GIA</th>
     <th></th>
     <th></th>
     <th></th>
@@ -31,19 +27,21 @@
 <% @diamonds.each do |diamond| %>
   <tr>
     <td><%= diamond.bn_number %></td>
-    <td><%= number_to_currency(diamond.current_price.price) %></td>
-    <td><%= diamond.current_price.created_at %></td>
+    <% if diamond.current_price %>
+    <td><span><%= number_to_currency(diamond.current_price.price) %></span></td>
+    <td><%= time_ago_in_words(diamond.current_price.created_at) %> ago</td>
+    <% else %>
+    <td>(null)</td>
+    <td>(null)</td>
+    <% end %></td>
+    
     <td><%= diamond.carat_weight %></td>
     <td><%= diamond.color %></td>
     <td><%= diamond.clarity %></td>
     <td><%= diamond.cut_grade %></td>
-    <td><%= diamond.polish %></td>
-    <td><%= diamond.symmetry %></td>
-    <td><%= diamond.flourescence %></td>
     <td><%= diamond.hca_score %></td>
     <td><%= diamond.aga_naja_grade %></td>
     <td><%= diamond.ship_time %></td>
-    <td><%= diamond.gia_number %></td>
     <td><%= link_to 'Show', diamond %></td>
     <td><%= link_to 'Edit', edit_diamond_path(diamond) %></td>
     <td><%= link_to 'Destroy', diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>

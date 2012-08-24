@@ -2,7 +2,7 @@ class DiamondsController < ApplicationController
   # GET /diamonds
   # GET /diamonds.json
   def index
-    @diamonds = Diamond.all
+    @diamonds = Diamond.order("bn_number").all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -70,8 +70,7 @@ class DiamondsController < ApplicationController
   end
   
   def refresh
-        
-    page = Nokogiri::HTML(open("http://www.bluenile.com/diamond-search/grid.html?currency=USD&sortCol=price&sortDir=desc&builder=BYOR&shape=RD&minCarat=0.97&maxCarat=15.35&minColor=I&maxColor=D&minPrice=317&maxPrice=6600&minCut=Ideal&maxCut=Signature+Ideal&minClarity=VS1&maxClarity=FL&minFluorescence=Medium&maxFluorescence=None&fluorescence=1&looseDate=false&type=SINGLE&startIndex=0&canvasScrollPosition=0&gridScrollPosition=0&showRowNumbers=false&_=1345652430221"))   
+    page = Nokogiri::HTML(open("http://www.bluenile.com/diamond-search/grid.html?currency=USD&sortCol=carat&sortDir=asc&shape=RD&minCarat=0.97&maxCarat=10.00&minColor=I&maxColor=D&minPrice=1&maxPrice=6600&minCut=Ideal&maxCut=Signature+Ideal&minClarity=VS1&maxClarity=FL&minFluorescence=Faint&maxFluorescence=None&fluorescence=1&looseDate=false&type=SINGLE&startIndex=0&canvasScrollPosition=0&gridScrollPosition=0&showRowNumbers=false"))   
     
     rows = page.css('div.row')
     
