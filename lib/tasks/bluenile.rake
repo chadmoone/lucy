@@ -2,11 +2,12 @@
 namespace :bluenile do
   desc 'Check bluenile.com for updates in diamond search.'
   task :refresh => :environment do
-    puts "updating diamonds"
+    puts "Updating diamonds from bluenile.com..."
     
     starttime = Time.now.utc
     @new = []
     @updated = []
+    @new_archived = []
     
     page = Nokogiri::HTML(open("http://www.bluenile.com/diamond-search/grid.html?currency=USD&sortCol=carat&sortDir=asc&shape=RD&minCarat=0.97&maxCarat=10.00&minColor=I&maxColor=D&minPrice=1&maxPrice=6600&minCut=Ideal&maxCut=Signature+Ideal&minClarity=VS1&maxClarity=FL&minFluorescence=Faint&maxFluorescence=None&fluorescence=1&looseDate=false&type=SINGLE&startIndex=0&canvasScrollPosition=0&gridScrollPosition=0&showRowNumbers=false"))   
     
@@ -50,8 +51,10 @@ namespace :bluenile do
       end
       
       if !diamond.current_price || diamond.current_price.price != price 
+        old_price = diamond.current_price
         price_snapshot = PriceSnapshot.create({:price => price, :diamond => diamond})
         diamond.current_price = price_snapshot
+        puts "updated price for diamond #{diamond.bn_number} from #{old_price.price} to #{price_snapshot.price}"
         @updated << diamond
       end
       
@@ -66,15 +69,29 @@ namespace :bluenile do
       available = page.css('div.shipping p').text != "Not Available For Purchase."
       
       if available
-        price_snapshot = PriceSnapshot.create({:price => missing_price, :diamond => missing_d})
+        puts "Diamond #{missing_d.bn_number} was missing, but still available"
+        if !missing_d.current_price || missing_d.current_price.price != missing_price 
+          old_price = missing_d.current_price
+          price_snapshot = PriceSnapshot.create({:price => missing_price, :diamond => missing_d})
+          missing_d.current_price = price_snapshot
+          puts "updated price for diamond #{missing_d.bn_number} from #{old_price.price} to #{price_snapshot.price}"
+          @updated << missing_d
+        end
       else
         missing_d.archived = true
+        @new_archived << missing_d
+        puts "Diamond #{missing_d.bn_number} no longer available, archiving"
       end
       missing_d.save
     end
     
     @current = Diamond.where('updated_at >= ?', starttime)
     @archived = Diamond.where('archived = ?', true)
-    puts @current.to_yaml
+    puts "Finished bluenile.com refresh:"
+    puts "    #{@new.count} new diamonds"
+    puts "    #{@updated.count} updated diamonds"
+    puts "    #{@new_archived.count} just archived diamonds"
+    puts "    #{@current.count} available diamonds"
+    puts "    #{@archived.count} archived diamonds"
   end
 end
