@@ -49,13 +49,7 @@ namespace :bluenile do
         @new << diamond
       end
       
-      if !diamond.current_price || diamond.current_price.price != price
-        logger.info "Updating price (#{diamond.current_price}) for diamond (#{diamond.bn_number})"
-        if diamond.current_price
-          logger.info "old price:#{diamond.current_price.price}"
-        end
-        logger.info "new price: #{price}"
-        
+      if !diamond.current_price || diamond.current_price.price != price 
         price_snapshot = PriceSnapshot.create({:price => price, :diamond => diamond})
         diamond.current_price = price_snapshot
         @updated << diamond
