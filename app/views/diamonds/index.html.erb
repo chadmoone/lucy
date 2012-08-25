@@ -7,7 +7,58 @@
     
 </script>
 
-<table id="diamond-table">
+<table id="diamond-table" class="table table-striped table-hover table-condensed">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Price</th>
+      <th>Updated</th>
+      <th>Carat</th>
+      <th>Color</th>
+      <th>Clarity</th>
+      <th>Cut</th>
+      <th>HCA</th>
+      <th>AGA</th>
+      <th>Ship time</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <% @available.each do |diamond| %>
+      <tr>
+        <td><%= link_to diamond.bn_number, diamond %> <a href="http://www.bluenile.com/_<%= diamond.bn_number %>" target="_blank"><i class="icon-globe" alt="View on bluenile.com"></i></a></td>
+        <% if diamond.current_price %>
+        <td><span><%= number_to_currency(diamond.current_price.price) %></span></td>
+        <td><%= time_ago_in_words(diamond.current_price.created_at) %> ago</td>
+        <% else %>
+        <td>(null)</td>
+        <td>(null)</td>
+        <% end %></td>
+    
+        <td><%= diamond.carat_weight %></td>
+        <td><%= diamond.color %></td>
+        <td><%= diamond.clarity %></td>
+        <td><%= diamond.cut_grade %></td>
+        <td><%= diamond.hca_score %></td>
+        <td><%= diamond.aga_naja_grade %></td>
+        <td><%= diamond.ship_time %></td>
+        <td><%= link_to tag("i", :class => "icon-edit", :alt => "Edit"), edit_diamond_path(diamond) %></td>
+        <td><%= link_to tag("i", :class => "icon-trash", :alt => "Delete"), diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
+
+<br />
+
+<%= link_to 'New Diamond', new_diamond_path %>
+
+<br />
+<h2>Archived Diamonds</h2>
+<table id="diamond-table" class="table">
   <tr>
     <th>ID</th>
     <th>Price</th>
@@ -24,9 +75,9 @@
     <th></th>
   </tr>
 
-<% @diamonds.each do |diamond| %>
+<% @archived.each do |diamond| %>
   <tr>
-    <td><%= diamond.bn_number %></td>
+    <td><%= link_to diamond.bn_number, diamond %> <a href="http://www.bluenile.com/_<%= diamond.bn_number %>" target="_blank"><i class="icon-globe" alt="View on bluenile.com"></i></a></td>
     <% if diamond.current_price %>
     <td><span><%= number_to_currency(diamond.current_price.price) %></span></td>
     <td><%= time_ago_in_words(diamond.current_price.created_at) %> ago</td>
@@ -34,7 +85,7 @@
     <td>(null)</td>
     <td>(null)</td>
     <% end %></td>
-    
+
     <td><%= diamond.carat_weight %></td>
     <td><%= diamond.color %></td>
     <td><%= diamond.clarity %></td>
@@ -42,13 +93,8 @@
     <td><%= diamond.hca_score %></td>
     <td><%= diamond.aga_naja_grade %></td>
     <td><%= diamond.ship_time %></td>
-    <td><%= link_to 'Show', diamond %></td>
-    <td><%= link_to 'Edit', edit_diamond_path(diamond) %></td>
-    <td><%= link_to 'Destroy', diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to tag("i", :class => "icon-edit", :alt => "Edit"), edit_diamond_path(diamond) %></td>
+    <td><%= link_to tag("i", :class => "icon-trash", :alt => "Delete"), diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Diamond', new_diamond_path %>

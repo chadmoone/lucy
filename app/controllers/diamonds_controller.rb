@@ -4,8 +4,9 @@ class DiamondsController < ApplicationController
   # GET /diamonds.json
   def index
     # @diamonds = Diamond.order("bn_number").all
-    @diamonds = Diamond.all(:include => [:current_price], :order => "price_snapshots.price DESC")
-
+    @available = Diamond.available.joins(:current_price).order("price_snapshots.price DESC")
+    # Rails.logger.info Diamond.available(:include => [:current_price])
+    @archived = Diamond.archived.joins(:current_price).order("price_snapshots.price DESC")  
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @diamonds }

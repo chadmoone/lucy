@@ -12,15 +12,33 @@
  *= require_tree .
  */
 
+/* html body {
+    color: #F2F2F2;
+    background-color: #2C3359;
+}
+
+a {
+    color: #F44526;
+}
+
+a:hover {
+    color: #2C3359;
+    background-color: #F2F2F2;
+}
+
 td {
     padding-left: 10px;
     padding-right: 10px;
 }
-
-tbody tr:nth-child(odd) {
-   background-color: #eee;
+ */
+/* tbody tr:nth-child(even) {
+   background-color: #EEE;
 }
-
+ */
+/* tbody tr:nth-child(odd) {
+   background-color: #F2F2F2;
+}
+ */
 
 tbody tr:hover {
   background-color: #55fff5;
