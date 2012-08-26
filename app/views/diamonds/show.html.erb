@@ -29,7 +29,7 @@
   <b>Pricing History:</b>
   <ul>
     <% @diamond.price_snapshots.each do |snapshot| %>
-    <li><%= number_to_currency(snapshot.price) %> - <%= snapshot.created_at %> - <%= link_to 'Destroy', snapshot, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+    <li><%= number_to_currency(snapshot.price) %> - <%= snapshot.created_at.to_s(:basic_date_time) %> - <%= link_to 'Destroy', snapshot, method: :delete, data: { confirm: 'Are you sure?' } %></li>
     <% end %>
   </ul>
 

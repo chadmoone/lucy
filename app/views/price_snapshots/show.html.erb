@@ -12,7 +12,7 @@
 
 <p>
   <b>Date:</b>
-  <%= @price_snapshot.created_at %>
+  <%= @price_snapshot.created_at.to_s(:basic_date_time) %>
 </p>
 
 <%= link_to 'Edit', edit_price_snapshot_path(@price_snapshot) %> |
