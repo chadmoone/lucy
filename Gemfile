@@ -8,7 +8,9 @@ gem 'rspec-rails'
 
 
 gem 'nokogiri'
+gem 'rest-client'
 require 'open-uri'
+
 
 
 # Gems used only for assets and not required

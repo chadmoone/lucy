@@ -20,15 +20,18 @@
       <th>HCA</th>
       <th>AGA</th>
       <th>Ship time</th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   
   <tbody>
     <% @available.each do |diamond| %>
       <tr>
-        <td><%= link_to diamond.bn_number, diamond %> <a href="http://www.bluenile.com/_<%= diamond.bn_number %>" target="_blank"><i class="icon-globe" alt="View on bluenile.com"></i></a></td>
+        <td>
+          <%= link_to diamond.bn_number, diamond %> 
+          <a href="http://www.bluenile.com/_<%= diamond.bn_number %>" target="_blank"><i class="icon-globe" alt="View on bluenile.com"></i></a> 
+          <%= link_to edit_diamond_path(diamond) do %><i class="icon-edit"></i><% end %> 
+          <%= link_to diamond, method: :delete, data: { confirm: 'Are you sure?' } do %><i class="icon-trash"></i><% end %>  
+        </td>
         <% if diamond.current_price %>
         <td><span><%= number_to_currency(diamond.current_price.price) %></span></td>
         <td><%= time_ago_in_words(diamond.current_price.created_at) %> ago</td>
@@ -41,11 +44,16 @@
         <td><%= diamond.color %></td>
         <td><%= diamond.clarity %></td>
         <td><%= diamond.cut_grade %></td>
-        <td><%= diamond.hca_score %></td>
+        <% if diamond.hca_score %>
+          <td>
+            <span class="<%= 'success' unless 2 < diamond.hca_score.score %>"><%= diamond.hca_score.score %></span>
+          </td>
+          
+        <% else %>
+          <td>Processing...</td>
+        <% end %>
         <td><%= diamond.aga_naja_grade %></td>
         <td><%= diamond.ship_time %></td>
-        <td><%= link_to tag("i", :class => "icon-edit", :alt => "Edit"), edit_diamond_path(diamond) %></td>
-        <td><%= link_to tag("i", :class => "icon-trash", :alt => "Delete"), diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -90,7 +98,7 @@
     <td><%= diamond.color %></td>
     <td><%= diamond.clarity %></td>
     <td><%= diamond.cut_grade %></td>
-    <td><%= diamond.hca_score %></td>
+    <td><%= diamond.hca_score.score unless diamond.hca_score.nil? %></td>
     <td><%= diamond.aga_naja_grade %></td>
     <td><%= diamond.ship_time %></td>
     <td><%= link_to tag("i", :class => "icon-edit", :alt => "Edit"), edit_diamond_path(diamond) %></td>

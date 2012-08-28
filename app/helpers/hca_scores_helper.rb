@@ -1,0 +1,2 @@
+module HcaScoresHelper
+end

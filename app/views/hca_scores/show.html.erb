@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Diamond:</b>
+  <%= @hca_score.diamond %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @hca_score.score %>
+</p>
+
+<p>
+  <b>Light return:</b>
+  <%= @hca_score.light_return %>
+</p>
+
+<p>
+  <b>Fire:</b>
+  <%= @hca_score.fire %>
+</p>
+
+<p>
+  <b>Scintillation:</b>
+  <%= @hca_score.scintillation %>
+</p>
+
+<p>
+  <b>Spread:</b>
+  <%= @hca_score.spread %>
+</p>
+
+
+<%= link_to 'Edit', edit_hca_score_path(@hca_score) %> |
+<%= link_to 'Back', hca_scores_path %>

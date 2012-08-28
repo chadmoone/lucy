@@ -1,0 +1,37 @@
+<h1>Listing hca_scores</h1>
+
+<table class="table table-striped table-condensed table-highlight">
+  <thead>
+    <tr>
+      <th>Diamond</th>
+      <th>Score</th>
+      <th>Light return</th>
+      <th>Fire</th>
+      <th>Scintillation</th>
+      <th>Spread</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hca_scores.each do |hca_score| %>  
+      <tr class="<%= 'success' unless hca_score.score < 2 %>">
+        <td><a href="<%= diamond_path(hca_score.diamond) %>"></a><%= hca_score.diamond.bn_number %></a></td>
+        <td><%= hca_score.score %></td>
+        <td><%= hca_score.light_return %></td>
+        <td><%= hca_score.fire %></td>
+        <td><%= hca_score.scintillation %></td>
+        <td><%= hca_score.spread %></td>
+        <td><%= link_to '', hca_score do %><i class="icon-list"></i><% end %></td>
+        <td><%= link_to 'Edit', edit_hca_score_path(hca_score) do %><i class="icon-list"></i><% end %></td>
+        <td><%= link_to 'Destroy', hca_score, method: :delete, data: { confirm: 'Are you sure?' } do %><i class="icon-list"></i><% end %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Hca score', new_hca_score_path %>

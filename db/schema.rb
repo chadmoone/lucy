@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120824155730) do
+ActiveRecord::Schema.define(:version => 20120827015253) do
 
   create_table "diamonds", :force => true do |t|
     t.string   "bn_number"
@@ -37,13 +37,23 @@ ActiveRecord::Schema.define(:version => 20120824155730) do
     t.string   "polish"
     t.string   "symmetry"
     t.string   "flourescence"
-    t.decimal  "hca_score"
     t.string   "aga_naja_grade"
     t.integer  "ship_time"
     t.datetime "created_at",                           :null => false
     t.datetime "updated_at",                           :null => false
     t.integer  "current_price_id"
     t.boolean  "archived",          :default => false
+  end
+
+  create_table "hca_scores", :force => true do |t|
+    t.integer  "diamond_id"
+    t.decimal  "score"
+    t.string   "light_return"
+    t.string   "fire"
+    t.string   "scintillation"
+    t.string   "spread"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "price_snapshots", :force => true do |t|

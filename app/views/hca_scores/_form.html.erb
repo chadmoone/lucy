@@ -1,0 +1,41 @@
+<%= form_for(@hca_score) do |f| %>
+  <% if @hca_score.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hca_score.errors.count, "error") %> prohibited this hca_score from being saved:</h2>
+
+      <ul>
+      <% @hca_score.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :diamond %><br />
+    <%= f.collection_select(:diamond_id, Diamond.all, :id, :bn_number) %>
+  </div>
+  <div class="field">
+    <%= f.label :score %><br />
+    <%= f.text_field :score %>
+  </div>
+  <div class="field">
+    <%= f.label :light_return %><br />
+    <%= f.text_field :light_return %>
+  </div>
+  <div class="field">
+    <%= f.label :fire %><br />
+    <%= f.text_field :fire %>
+  </div>
+  <div class="field">
+    <%= f.label :scintillation %><br />
+    <%= f.text_field :scintillation %>
+  </div>
+  <div class="field">
+    <%= f.label :spread %><br />
+    <%= f.text_field :spread %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

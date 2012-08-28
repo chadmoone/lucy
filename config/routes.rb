@@ -1,4 +1,6 @@
 Lucy::Application.routes.draw do
+  resources :hca_scores
+
   resources :price_snapshots
 
   resources :diamonds do

@@ -50,11 +50,12 @@ namespace :bluenile do
         @new << diamond
       end
       
-      if !diamond.current_price || diamond.current_price.price != price 
+      unless diamond.current_price && diamond.current_price.price == price 
         old_price = diamond.current_price
         price_snapshot = PriceSnapshot.create({:price => price, :diamond => diamond})
         diamond.current_price = price_snapshot
-        puts "updated price for diamond #{diamond.bn_number} from #{old_price.price} to #{price_snapshot.price}"
+        puts "updating price..."
+        puts "updated price for diamond #{diamond.bn_number} from #{old_price ? old_price.price : 0.00} to #{price_snapshot.price}"
         @updated << diamond
       end
       
@@ -64,6 +65,7 @@ namespace :bluenile do
     
     @missing = Diamond.where("updated_at < ? AND archived = ?", starttime, false)
     @missing.each do |missing_d|
+      puts "handling missing diamond..."
       page = Nokogiri::HTML(open("http://www.bluenile.com/diamond-details-panel?pid=#{missing_d.bn_number}")) 
       missing_price = page.css('div.details_column')[1].css('td')[3].text.gsub(/[\D]/, '').to_f
       available = page.css('div.shipping p').text != "Not Available For Purchase."
@@ -87,6 +89,11 @@ namespace :bluenile do
     
     @current = Diamond.where('updated_at >= ?', starttime)
     @archived = Diamond.where('archived = ?', true)
+    
+    @archived.each do |archive_d|
+      
+    end
+    
     puts "Finished bluenile.com refresh:"
     puts "    #{@new.count} new diamonds"
     puts "    #{@updated.count} updated diamonds"
