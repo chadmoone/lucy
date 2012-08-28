@@ -11,6 +11,8 @@ gem 'nokogiri'
 gem 'rest-client'
 require 'open-uri'
 
+gem 'business_time'
+
 
 
 # Gems used only for assets and not required

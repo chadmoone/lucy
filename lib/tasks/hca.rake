@@ -15,7 +15,7 @@ namespace :hca do
     diamonds = Diamond.all
     
     diamonds.each do |diamond|
-      if diamond.hca_score.nil? && diamond.gia_score
+      if diamond.hca_score.nil? && diamond.gia_number
         puts "loading hca for diamond #{diamond.bn_number}"
         
         params = {"depth_textbox" => diamond.total_depth.to_s,
