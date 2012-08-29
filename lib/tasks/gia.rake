@@ -18,12 +18,12 @@ namespace :gia do
         begin
           puts "loading GIA data for #{diamond.bn_number}"
           bn_page = Nokogiri::HTML(open(BN_URL))
-        rescue 
-          puts "Error loading URL: #{BN_URL}"
-        else
           gia_text = bn_page.css('span.view_cert_text a')[1]["href"]
           gia_parse = /(?<=http:\/\/www.bluenile.com\/certs\/)(?<num>[0-9]{10})(?=\.pdf?)/.match(gia_text)
           gia_number = gia_parse[:num].to_i
+        rescue 
+          puts "Error GIA data from URL: #{BN_URL}"
+        else
           
           puts "...found GIA Number #{gia_number}"
           diamond.gia_number = gia_number
