@@ -11,7 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120828235441) do
+ActiveRecord::Schema.define(:version => 20120830055139) do
+
+  create_table "aja_scores", :force => true do |t|
+    t.integer  "diamond_id"
+    t.string   "tab_percent"
+    t.string   "crown_angle"
+    t.string   "crown_height"
+    t.string   "pavilion_depth"
+    t.string   "girdle"
+    t.string   "depth"
+    t.string   "polish"
+    t.string   "symmetry"
+    t.string   "total_grade"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  add_index "aja_scores", ["diamond_id"], :name => "index_aja_scores_on_diamond_id"
 
   create_table "diamonds", :force => true do |t|
     t.string   "bn_number"

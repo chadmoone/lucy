@@ -1,0 +1,57 @@
+<%= form_for(@aja_score) do |f| %>
+  <% if @aja_score.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@aja_score.errors.count, "error") %> prohibited this aja_score from being saved:</h2>
+
+      <ul>
+      <% @aja_score.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :diamond %><br />
+    <%= f.text_field :diamond %>
+  </div>
+  <div class="field">
+    <%= f.label :tab_percent %><br />
+    <%= f.text_field :tab_percent %>
+  </div>
+  <div class="field">
+    <%= f.label :crown_angle %><br />
+    <%= f.text_field :crown_angle %>
+  </div>
+  <div class="field">
+    <%= f.label :crown_height %><br />
+    <%= f.text_field :crown_height %>
+  </div>
+  <div class="field">
+    <%= f.label :pavilion_depth %><br />
+    <%= f.text_field :pavilion_depth %>
+  </div>
+  <div class="field">
+    <%= f.label :girdle %><br />
+    <%= f.text_field :girdle %>
+  </div>
+  <div class="field">
+    <%= f.label :depth %><br />
+    <%= f.text_field :depth %>
+  </div>
+  <div class="field">
+    <%= f.label :polish %><br />
+    <%= f.text_field :polish %>
+  </div>
+  <div class="field">
+    <%= f.label :symmetry %><br />
+    <%= f.text_field :symmetry %>
+  </div>
+  <div class="field">
+    <%= f.label :total_grade %><br />
+    <%= f.text_field :total_grade %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

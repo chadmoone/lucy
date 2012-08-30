@@ -1,0 +1,41 @@
+<h1>Listing aja_scores</h1>
+
+<table>
+  <tr>
+    <th>Diamond</th>
+    <th>Tab percent</th>
+    <th>Crown angle</th>
+    <th>Crown height</th>
+    <th>Pavilion depth</th>
+    <th>Girdle</th>
+    <th>Depth</th>
+    <th>Polish</th>
+    <th>Symmetry</th>
+    <th>Total grade</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @aja_scores.each do |aja_score| %>
+  <tr>
+    <td><%= aja_score.diamond %></td>
+    <td><%= aja_score.tab_percent %></td>
+    <td><%= aja_score.crown_angle %></td>
+    <td><%= aja_score.crown_height %></td>
+    <td><%= aja_score.pavilion_depth %></td>
+    <td><%= aja_score.girdle %></td>
+    <td><%= aja_score.depth %></td>
+    <td><%= aja_score.polish %></td>
+    <td><%= aja_score.symmetry %></td>
+    <td><%= aja_score.total_grade %></td>
+    <td><%= link_to 'Show', aja_score %></td>
+    <td><%= link_to 'Edit', edit_aja_score_path(aja_score) %></td>
+    <td><%= link_to 'Destroy', aja_score, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Aja score', new_aja_score_path %>

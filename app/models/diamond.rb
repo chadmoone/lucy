@@ -27,6 +27,7 @@ class Diamond < ActiveRecord::Base
                   :total_depth
   
   has_one :hca_score
+  has_one :aja_score
   has_many :price_snapshots, :dependent => :destroy
   belongs_to  :current_price, :class_name => "PriceSnapshot"
   

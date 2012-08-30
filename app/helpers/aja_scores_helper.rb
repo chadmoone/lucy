@@ -1,0 +1,2 @@
+module AjaScoresHelper
+end
