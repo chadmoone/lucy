@@ -101,4 +101,103 @@ namespace :bluenile do
     puts "    #{@current.count} available diamonds"
     puts "    #{@archived.count} archived diamonds"
   end
+  
+  
+  task :dates => :environment do
+    date1 = "Friday, September 7"
+    puts DateTime.strptime(date1, '%A, %B %e')
+    
+  end
+  
+  task :update_all => :environment do
+    
+    @all_diamonds = Diamond.all()
+    @updated = []
+    @archived = []
+    @new_archived = []
+    
+    @all_diamonds.each do |diamond|
+      puts "loading diamond #{diamond.bn_number}..."
+      BN_URL = "http://www.bluenile.com/diamond-details-panel?pid=#{diamond.bn_number}"
+      page = Nokogiri::HTML(open(BN_URL))
+        
+      current_price = page.css('div.details_column')[1].css('td')[3].text.gsub(/[\D]/, '').to_f
+      availability_text = page.css('div.shipping p').text
+      available = availability_text !~ /Not Available For Purchase/ && availability_text !~ /Call [\d-]* for current availability/
+      
+      # puts "available - #{available}"
+      
+      if available
+        if !diamond.current_price || diamond.current_price.price != current_price 
+          old_price = diamond.current_price
+          price_snapshot = PriceSnapshot.create({:price => current_price, :diamond => diamond})
+          diamond.current_price = price_snapshot
+          puts "  ...updated price for diamond #{diamond.bn_number} from #{old_price.price} to #{price_snapshot.price}"
+          @updated << diamond
+        end
+      else
+        diamond.archived = true
+        @new_archived << diamond
+        puts "  ...Diamond #{diamond.bn_number} no longer available, archiving"
+      end
+      
+      ship_time = nil
+      
+      unless diamond.archived == true
+        
+        begin
+          shipping_parse = /([\w]*, [\w]* [\d]*)(?= when \tset in jewelry)/.match(page.css('div.shipping p').text)
+          # puts "Date: #{Regexp.last_match.to_s}"
+          ship_date = DateTime.strptime(Regexp.last_match.to_s, '%A, %B %e')
+          # puts "Ship date: #{ship_date}"
+          # puts "Today: #{Date.today}"
+          ship_time = Date.today.business_days_until(ship_date)
+          # puts "Days: #{ship_time}"
+          
+        rescue Exception => e
+          puts "  --failed loading date from http://www.bluenile.com/diamond-details-panel?pid=#{diamond.bn_number}"
+          puts "  --available: #{available}"
+          puts "  --#{page.css('div.shipping p').text}"
+          puts "  --#{e}"
+        end
+      end
+      
+      # Table cells that contain the rest of the diamond info
+      cells = page.css('div.details_column')[1].css('td')
+      
+      measurments = cells[31].text
+      measure_parse = /(?<dia1>[\d\/.]+) x (?<dia2>[\d\/.]+) x (?<depth>[\d\/.]+)/.match(measurments)
+      diams = [measure_parse[:dia1].to_f, measure_parse[:dia2].to_f]
+      diameter_min = diams.min.to_f
+      diameter_max = diams.max.to_f
+      height_mm = measure_parse[:depth].to_f
+      
+      d = {
+        # :shape => r.css('div.shape span.a').text,
+        :carat_weight => cells[9].text.to_f,
+        :cut_grade => cells[11].text,
+        :color => cells[13].text,
+        :clarity => cells[15].text,
+        :polish => cells[21].text,
+        :symmetry => cells[23].text,
+        :total_depth => cells[17].text.to_f,
+        :table_size => cells[19].text.to_f,
+        :flourescence => cells[29].text,
+        :diameter_min => diameter_min,
+        :diameter_max => diameter_max,
+        :height_mm => height_mm,
+        :ship_time => ship_time
+        };
+      
+      # puts d.inspect
+      
+      diamond.update_attributes(d)
+      diamond.save
+      
+    end
+    
+    
+    
+  end
+    
 end

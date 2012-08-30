@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120827015253) do
+ActiveRecord::Schema.define(:version => 20120828235441) do
 
   create_table "diamonds", :force => true do |t|
     t.string   "bn_number"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(:version => 20120827015253) do
     t.datetime "updated_at",                           :null => false
     t.integer  "current_price_id"
     t.boolean  "archived",          :default => false
+    t.string   "shape"
   end
 
   create_table "hca_scores", :force => true do |t|
