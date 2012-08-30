@@ -1,6 +1,5 @@
 class Diamond < ActiveRecord::Base
-  attr_accessible :aga_naja_grade,
-                  :bn_number,
+  attr_accessible :bn_number,
                   :carat_weight,
                   :clarity,
                   :color,

@@ -44,6 +44,7 @@
         <td><%= diamond.color %></td>
         <td><%= diamond.clarity %></td>
         <td><%= diamond.cut_grade %></td>
+        
         <% if diamond.hca_score %>
           <td>
             <span class="<%= 'success' unless 2 < diamond.hca_score.score %>"><%= diamond.hca_score.score %></span>
@@ -52,7 +53,14 @@
         <% else %>
           <td>Processing...</td>
         <% end %>
-        <td><%= diamond.aga_naja_grade %></td>
+        <% if diamond.hca_score %>
+          <td>
+            <span class="<%= 'success' unless "1A" == diamond.aja_score.total_grade %>"><%= diamond.aja_score.total_grade %></span>
+          </td>
+          
+        <% else %>
+          <td>Processing...</td>
+        <% end %>
         <td><%= diamond.ship_time %></td>
       </tr>
     <% end %>
@@ -98,8 +106,22 @@
     <td><%= diamond.color %></td>
     <td><%= diamond.clarity %></td>
     <td><%= diamond.cut_grade %></td>
-    <td><%= diamond.hca_score.score unless diamond.hca_score.nil? %></td>
-    <td><%= diamond.aga_naja_grade %></td>
+    <% if diamond.hca_score %>
+      <td>
+        <span class="<%= 'success' unless 2 < diamond.hca_score.score %>"><%= diamond.hca_score.score %></span>
+      </td>
+      
+    <% else %>
+      <td>Processing...</td>
+    <% end %>
+    <% if diamond.hca_score %>
+      <td>
+        <span class="<%= 'success' unless "1A" == diamond.aja_score.total_grade %>"><%= diamond.aja_score.total_grade %></span>
+      </td>
+      
+    <% else %>
+      <td>Processing...</td>
+    <% end %>
     <td><%= diamond.ship_time %></td>
     <td><%= link_to tag("i", :class => "icon-edit", :alt => "Edit"), edit_diamond_path(diamond) %></td>
     <td><%= link_to tag("i", :class => "icon-trash", :alt => "Delete"), diamond, method: :delete, data: { confirm: 'Are you sure?' } %></td>

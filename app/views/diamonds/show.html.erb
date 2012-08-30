@@ -135,12 +135,20 @@
 
 <p>
   <b>Hca score:</b>
-  <%= @diamond.hca_score %>
+  <% if @diamond.hca_score %>
+    <span class="<%= 'success' unless 2 < @diamond.hca_score.score %>"><%= @diamond.hca_score.score %></span>
+  <% else %>
+    Processing...
+  <% end %>
 </p>
 
 <p>
   <b>Aga naja grade:</b>
-  <%= @diamond.aga_naja_grade %>
+  <% if @diamond.hca_score %>
+    <span class="<%= 'success' unless "1A" == @diamond.aja_score.total_grade %>"><%= @diamond.aja_score.total_grade %></span>
+  <% else %>
+    Processing...
+  <% end %>
 </p>
 
 <p>

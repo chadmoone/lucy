@@ -15,5 +15,7 @@ class CreateAjaScores < ActiveRecord::Migration
       t.timestamps
     end
     add_index :aja_scores, :diamond_id
+    
+    remove_column :diamonds, :aja_naja_grade
   end
 end
