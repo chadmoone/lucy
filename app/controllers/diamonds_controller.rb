@@ -5,6 +5,7 @@ class DiamondsController < ApplicationController
   def index
     # @diamonds = Diamond.order("bn_number").all
     @available = Diamond.available.joins(:current_price).order("price_snapshots.price DESC")
+    @fast = Diamond.available.where("ship_time <= 6").joins(:current_price).order("price_snapshots.price DESC")
     # Rails.logger.info Diamond.available(:include => [:current_price])
     @archived = Diamond.archived.joins(:current_price).order("price_snapshots.price DESC")  
     respond_to do |format|

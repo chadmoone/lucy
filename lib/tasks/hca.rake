@@ -26,8 +26,6 @@ namespace :hca do
                   "pavilion_textbox" => diamond.pavillion_angle.to_s,
                   "cutlet_textbox" => "0"}
         
-        puts params.inspect
-        
         if page = RestClient.post(url, params)
           puts "Success getting html..."
         

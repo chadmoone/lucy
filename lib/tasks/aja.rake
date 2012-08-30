@@ -16,7 +16,7 @@ namespace :aja do
 
     diamonds.each do |diamond|
       if diamond.aja_score.nil? && diamond.gia_number
-        puts "loading hca for diamond #{diamond.bn_number}"
+        puts "loading aja for diamond #{diamond.bn_number}"
         
         girdle_index = ["",
                         "Extremely Thin",
