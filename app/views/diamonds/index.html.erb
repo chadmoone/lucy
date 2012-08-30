@@ -25,7 +25,11 @@
   
   <tbody>
     <% @available.each do |diamond| %>
-      <tr>
+      <% if diamond.favorite == true %>
+        <tr class="success"%>>
+      <% else %>
+        <tr>
+      <% end %>
         <td>
           <%= link_to diamond.bn_number, diamond %> 
           <a href="http://www.bluenile.com/_<%= diamond.bn_number %>" target="_blank"><i class="icon-globe" alt="View on bluenile.com"></i></a> 
@@ -92,7 +96,12 @@
   </tr>
 
 <% @archived.each do |diamond| %>
-  <tr>
+  <% if diamond.favorite == true %>
+    <tr class="success"%>>
+  <% else %>
+    <tr>
+  <% end %>
+  
     <td><%= link_to diamond.bn_number, diamond %> <a href="http://www.bluenile.com/_<%= diamond.bn_number %>" target="_blank"><i class="icon-globe" alt="View on bluenile.com"></i></a></td>
     <% if diamond.current_price %>
     <td><span><%= number_to_currency(diamond.current_price.price) %></span></td>

@@ -10,10 +10,15 @@
       </ul>
     </div>
   <% end %>
-
+  
+  
   <div class="field">
     <%= f.label :bn_number %><br />
     <%= f.text_field :bn_number %>
+  </div>
+  <div class="field">
+    <%= f.check_box :favorite %>
+    <%= f.label :favorite %>
   </div>
   <div class="field">
     <%= f.label :gia_number %><br />

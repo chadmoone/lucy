@@ -23,7 +23,8 @@ class Diamond < ActiveRecord::Base
                   :star_length,
                   :symmetry,
                   :table_size,
-                  :total_depth
+                  :total_depth,
+                  :favorite
   
   has_one :hca_score
   has_one :aja_score

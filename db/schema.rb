@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120830055139) do
+ActiveRecord::Schema.define(:version => 20120830184752) do
 
   create_table "aja_scores", :force => true do |t|
     t.integer  "diamond_id"
@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(:version => 20120830055139) do
     t.integer  "current_price_id"
     t.boolean  "archived",          :default => false
     t.string   "shape"
+    t.boolean  "favorite"
   end
 
   create_table "hca_scores", :force => true do |t|
