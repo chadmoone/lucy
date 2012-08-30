@@ -26,7 +26,7 @@
   <tbody>
     <% @available.each do |diamond| %>
       <% if diamond.favorite == true %>
-        <tr class="success"%>>
+        <tr class="success">
       <% else %>
         <tr>
       <% end %>
@@ -59,13 +59,15 @@
         <% end %>
         <% if diamond.aja_score %>
           <td>
-            <span class="<%= 'success' unless "1A" == diamond.aja_score.total_grade %>"><%= diamond.aja_score.total_grade %></span>
+            <span class="<%= 'success' unless /1\w/ !~ diamond.aja_score.total_grade %>"><%= diamond.aja_score.total_grade %></span>
           </td>
           
         <% else %>
           <td>Processing...</td>
         <% end %>
-        <td><%= diamond.ship_time %></td>
+        <td>
+          <span class="<%= 'success' unless diamond.ship_time > 5 %>"><%= diamond.ship_time %></span>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -78,7 +80,7 @@
 
 <br />
 <h2>Archived Diamonds</h2>
-<table id="diamond-table" class="table">
+<table id="diamond-table" class="table table-condensed table-striped table-hover">
   <tr>
     <th>ID</th>
     <th>Price</th>
@@ -97,7 +99,7 @@
 
 <% @archived.each do |diamond| %>
   <% if diamond.favorite == true %>
-    <tr class="success"%>>
+    <tr class="success">
   <% else %>
     <tr>
   <% end %>
@@ -125,7 +127,7 @@
     <% end %>
     <% if diamond.aja_score %>
       <td>
-        <span class="<%= 'success' unless "1A" == diamond.aja_score.total_grade %>"><%= diamond.aja_score.total_grade %></span>
+        <span class="<%= 'success' unless /1\w/ !~ diamond.aja_score.total_grade %>"><%= diamond.aja_score.total_grade %></span>
       </td>
       
     <% else %>
