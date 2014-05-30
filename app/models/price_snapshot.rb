@@ -1,6 +1,6 @@
 class PriceSnapshot < ActiveRecord::Base
   
-  attr_accessible :price, :diamond, :bn_id, :created_at
+  # attr_accessible :price, :diamond, :bn_id, :created_at
   belongs_to :diamond
   
   validates :diamond_id, :presence => true

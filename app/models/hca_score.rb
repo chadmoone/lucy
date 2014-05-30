@@ -1,5 +1,5 @@
 class HcaScore < ActiveRecord::Base
-  attr_accessible :diamond, :fire, :light_return, :scintillation, :score, :spread
+  # attr_accessible :diamond, :fire, :light_return, :scintillation, :score, :spread
   
   belongs_to :diamond
   
