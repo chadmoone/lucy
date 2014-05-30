@@ -13,16 +13,16 @@ namespace :gia do
     all_diamonds.each do |diamond|
       if diamond.gia_number.nil?
         
-        BN_URL = "http://www.bluenile.com/_#{diamond.bn_number}"
+        bn_url = "http://www.bluenile.com/_#{diamond.bn_number}"
         
         begin
           puts "loading GIA data for #{diamond.bn_number}"
-          bn_page = Nokogiri::HTML(open(BN_URL))
+          bn_page = Nokogiri::HTML(open(bn_url))
           gia_text = bn_page.css('span.view_cert_text a')[1]["href"]
           gia_parse = /(?<=http:\/\/www.bluenile.com\/certs\/)(?<num>[0-9]{10})(?=\.pdf?)/.match(gia_text)
           gia_number = gia_parse[:num].to_i
         rescue 
-          puts "Error GIA data from URL: #{BN_URL}"
+          puts "Error GIA data from URL: #{bn_url}"
         else
           
           puts "...found GIA Number #{gia_number}"
@@ -30,49 +30,40 @@ namespace :gia do
           
           if gia_number
             
-            GIA_URL = "https://myapps.gia.edu/ReportCheckPortal/getReportData.do"
+            gia_url = "http://www.gia.edu/otmm_wcs_int/proxy-report/?ReportNumber=#{gia_number}&url=https://myapps.gia.edu/ReportCheckPOC/pocservlet?ReportNumber=#{gia_number}"
             begin
-              puts "...loading additional GIA data..."
-              rc = RestClient.get GIA_URL, :params => {"reportno" => "#{gia_number}", "weight" => "#{diamond.carat_weight}"}
+              puts "...loading additional GIA data: #{gia_url}"
+              rc = RestClient.get(gia_url)
+              rc = RestClient::Request.execute(:method => :get, :url => gia_url, :timeout => 60, :open_timeout => 100)
             rescue
-              puts "Error loading URL: #{GIA_URL}?reportno=#{gia_number}&weight=#{diamond.carat_weight}"
+              puts "Error loading URL: #{gia_url}"
             else
-              page =  Nokogiri::HTML(rc)
+              page =  Nokogiri::XML(rc)
               
-              proportions = page.css('table')[2].css('td')
+              diamond.crown_angle = page.css('CRN_AG').text.to_f
+              diamond.crown_height = page.css('CRN_HT').text.to_f
+              diamond.pavillion_angle = page.css('PAV_AG').text.to_f
+              diamond.pavillion_depth = page.css('PAV_DP').text.to_f
+              diamond.star_length = page.css('STR_LN').text.to_f
+              diamond.lower_half_length = page.css('LR_HALF').text.to_f
+              diamond.cutlet_size = page.css('CUTLET_SIZE').text
               
-              diamond.crown_angle = proportions[5].text.gsub(/[^\d\.]/, '').to_f
-              diamond.crown_height = proportions[7].text.gsub(/[^\d\.]/, '').to_f
-              diamond.pavillion_angle = proportions[9].text.gsub(/[^\d\.]/, '').to_f
-              diamond.pavillion_depth = proportions[11].text.gsub(/[^\d\.]/, '').to_f
-              diamond.star_length = proportions[13].text.gsub(/[^\d\.]/, '').to_f
-              diamond.lower_half_length = proportions[15].text.gsub(/[^\d\.]/, '').to_f
-              diamond.cutlet_size = proportions[19].text
-              
-              if two_girdle_test = /(?<min>^[\w\s]*) to (?<max>[\w\s]*)/.match(proportions[17].text)
+              if two_girdle_test = /(?<min>^[\w\s]*) to (?<max>[\w\s]*)/.match(page.css('GIRDLE').text)
                 diamond.girdle_min = two_girdle_test[:min]
                 diamond.girdle_max = two_girdle_test[:max]
-                
-              elsif one_girdle_test = /(?<min>^[\w\s]*)/.match(proportions[17].text)
+
+              elsif one_girdle_test = /(?<min>^[\w\s]*)/.match(page.css('GIRDLE').text)
                 diamond.girdle_min = one_girdle_test[:min]
                 diamond.girdle_max = one_girdle_test[:min]
-                
+              
               else
                 puts "--! no girdle matched"
               end
               
               puts "...saving GIA data."
+
+              puts diamond.inspect
               diamond.save
-              
-              # puts "crown_angle: #{diamond.crown_angle}"
-              # puts "crown_height: #{diamond.crown_height}"
-              # puts "pavillion_angle: #{diamond.pavillion_angle}"
-              # puts "pavillion_depth: #{diamond.pavillion_depth}"
-              # puts "star_length: #{diamond.star_length}"
-              # puts "lower_half_length: #{diamond.lower_half_length}"
-              # puts "girdle_min: #{diamond.girdle_min}"
-              # puts "girdle_max: #{diamond.girdle_max}"
-              # puts "cutlet_size: #{diamond.cutlet_size}"
             end # gia request
             
           end # if gia_number

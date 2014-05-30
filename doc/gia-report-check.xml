@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<body>
+  <report_check_response>
+    <status>SUCCESS</status>
+    <error_dtls>
+      <error_code></error_code>
+      <error_msg></error_msg>
+    </error_dtls>
+    <report_dtls>
+      <report_dtl>
+        <message></message>
+        <length>6.19 - 6.22 x 4.00 mm</length>
+        <width>6.19 - 6.22 x 4.00 mm</width>
+        <depth>6.19 - 6.22 x 4.00 mm</depth>
+        <weight>0.98</weight>
+        <report_no>2156750957</report_no>
+        <color>I</color>
+        <color_descriptions></color_descriptions>
+        <clarity>VVS1</clarity>
+        <final_cut>Very Good</final_cut>
+        <depth_pct>64.5</depth_pct>
+        <table_pct>56</table_pct>
+        <crn_ag>38.5?</crn_ag>
+        <crn_ht>17.5%</crn_ht>
+        <pav_ag>40.2?</pav_ag>
+        <pav_dp>42.0%</pav_dp>
+        <str_ln>50%</str_ln>
+        <lr_half>80%</lr_half>
+        <girdle>Slightly Thick to Thick</girdle>
+        <girdle_condition>Faceted</girdle_condition>
+        <girdle_pct>5.0%</girdle_pct>
+        <culet_size>None</culet_size>
+        <polish>Excellent</polish>
+        <symmetry>Excellent</symmetry>
+        <fluorescence_intensity>None</fluorescence_intensity>
+        <fluorescence_color></fluorescence_color>
+        <key_to_symbols>Pinpoint, Feather</key_to_symbols>
+        <report_type>DD~Diamond Dossier</report_type>
+        <report_dt>8/19/2013</report_dt>
+        <inscription>GIA 2156750957</inscription>
+        <shape>RBC~Round Brilliant</shape>
+        <report_comments></report_comments>
+        <control_number>100709460162</control_number>
+        <inclusion_dtls></inclusion_dtls>
+        <clarity_status_code></clarity_status_code>
+        <clarity_status_abbr></clarity_status_abbr>
+        <cut_code>VG</cut_code>
+        <polish_code>EX</polish_code>
+        <symmetry_code>EX</symmetry_code>
+        <fluo_intensity_code>NON</fluo_intensity_code>
+        <girdle_code>STK to THK</girdle_code>
+        <culet_code>NON</culet_code>
+        <length_code>6.22</length_code>
+        <width_code>6.19</width_code>
+        <depth_code>4.00</depth_code>
+        <css_color_code>I</css_color_code>
+        <css_color_desc></css_color_desc>
+        <painting>Excellent</painting>
+        <painting_comment></painting_comment>
+        <proportion>Very Good</proportion>
+        <synthetic_indicator>NO</synthetic_indicator>
+        <ident_tbl_report_dt></ident_tbl_report_dt>
+        <ident_tbl_weight></ident_tbl_weight>
+        <ident_tbl_measurements></ident_tbl_measurements>
+        <ident_tbl_shape></ident_tbl_shape>
+        <ident_tbl_cuttingstyle></ident_tbl_cuttingstyle>
+        <ident_tbl_cuttingstyle_pav></ident_tbl_cuttingstyle_pav>
+        <ident_tbl_cuttingstyle_crn></ident_tbl_cuttingstyle_crn>
+        <ident_tbl_transparency></ident_tbl_transparency>
+        <ident_tbl_color></ident_tbl_color>
+        <ident_tbl_phenomenon></ident_tbl_phenomenon>
+        <ident_tbl_description></ident_tbl_description>
+        <ident_tbl_group></ident_tbl_group>
+        <ident_tbl_tradename></ident_tbl_tradename>
+        <ident_tbl_species></ident_tbl_species>
+        <ident_tbl_variety></ident_tbl_variety>
+        <ident_tbl_sourcetype></ident_tbl_sourcetype>
+        <ident_tbl_geographicorigin></ident_tbl_geographicorigin>
+        <ident_tbl_treatement></ident_tbl_treatement>
+        <ident_tbl_comments></ident_tbl_comments>
+        <ident_tabular_indicator></ident_tabular_indicator>
+        <ident_nar_desc></ident_nar_desc>
+        <ident_nar_conclusion></ident_nar_conclusion>
+        <ident_nar_comments></ident_nar_comments>
+        <quantity></quantity>
+        <measurements></measurements>
+        <pearls></pearls>
+        <environment></environment>
+        <mollusk></mollusk>
+        <treatments></treatments>
+        <bodycolor></bodycolor>
+        <overtone></overtone>
+        <luster></luster>
+        <surface></surface>
+        <nacrethickness></nacrethickness>
+        <matching></matching>
+        <drilling></drilling>
+        <report_description></report_description>
+        <general_desc></general_desc>
+        <is_pdf_available>TRUE</is_pdf_available>
+        <ereport_url></ereport_url>
+      </report_dtl>
+    </report_dtls>
+  </report_check_response>
+</body>
+</html>
