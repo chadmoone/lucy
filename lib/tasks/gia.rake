@@ -34,7 +34,7 @@ namespace :gia do
             begin
               puts "...loading additional GIA data: #{gia_url}"
               rc = RestClient.get(gia_url)
-              rc = RestClient::Request.execute(:method => :get, :url => gia_url, :timeout => 60, :open_timeout => 100)
+              rc = RestClient::Request.execute(:method => :get, :url => gia_url, :timeout => 120, :open_timeout => 120)
             rescue
               puts "Error loading URL: #{gia_url}"
             else
