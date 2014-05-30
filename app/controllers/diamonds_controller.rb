@@ -1,75 +1,43 @@
 class DiamondsController < ApplicationController
-  respond_to :html, :json, :js
-  # GET /diamonds
-  # GET /diamonds.json
+  respond_to :html
+
   def index
     # @diamonds = Diamond.order("bn_number").all
     @available = Diamond.available.joins(:current_price).order("price_snapshots.price DESC")
     @fast = Diamond.available.where("ship_time <= 6").joins(:current_price).order("price_snapshots.price DESC")
     # Rails.logger.info Diamond.available(:include => [:current_price])
     @archived = Diamond.archived.joins(:current_price).order("price_snapshots.price DESC")  
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @diamonds }
-    end
   end
 
-  # GET /diamonds/1
-  # GET /diamonds/1.json
   def show
     @diamond = Diamond.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @diamond }
-    end
   end
 
-  # GET /diamonds/new
-  # GET /diamonds/new.json
   def new
     @diamond = Diamond.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @diamond }
-    end
   end
 
-  # GET /diamonds/1/edit
   def edit
     @diamond = Diamond.find(params[:id])
   end
 
-  # POST /diamonds
-  # POST /diamonds.json
   def create
     @diamond = Diamond.new(params[:diamond])
 
-    respond_to do |format|
-      if @diamond.save
-        format.html { redirect_to @diamond, notice: 'Diamond was successfully created.' }
-        format.json { render json: @diamond, status: :created, location: @diamond }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @diamond.errors, status: :unprocessable_entity }
-      end
+    if @diamond.save
+      redirect_to @diamond, notice: 'Diamond was successfully created.' }
+    else
+      render action: "new"
     end
   end
 
-  # PUT /diamonds/1
-  # PUT /diamonds/1.json
   def update
     @diamond = Diamond.find(params[:id])
 
-    respond_to do |format|
-      if @diamond.update_attributes(params[:diamond])
-        format.html { redirect_to @diamond, notice: 'Diamond was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @diamond.errors, status: :unprocessable_entity }
-      end
+    if @diamond.update_attributes(params[:diamond])
+      redirect_to @diamond, notice: 'Diamond was successfully updated.'
+    else
+      render action: "edit"
     end
   end
   
@@ -154,15 +122,10 @@ class DiamondsController < ApplicationController
     @archived = Diamond.where('archived = ?', true)
   end
 
-  # DELETE /diamonds/1
-  # DELETE /diamonds/1.json
   def destroy
     @diamond = Diamond.find(params[:id])
     @diamond.destroy
 
-    respond_to do |format|
-      format.html { redirect_to diamonds_url }
-      format.json { head :no_content }
-    end
+    redirect_to diamonds_url
   end
 end
